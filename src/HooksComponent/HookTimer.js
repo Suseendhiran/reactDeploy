@@ -9,7 +9,7 @@ function HookTimer() {
     useEffect(() => {
         intervalRef.current = setInterval(() => {
             setTimer(prevTimer => prevTimer + 1)
-        }, 10000)
+        }, 100000)
         return () => {
             clearInterval(intervalRef.current)
         }
