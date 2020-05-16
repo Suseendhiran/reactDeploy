@@ -7,7 +7,7 @@ function Counterone() {
 
     return (
         <div>
-            Count - {count}
+            Counter One - {count}
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
             <button onClick={reset}>Reset</button>

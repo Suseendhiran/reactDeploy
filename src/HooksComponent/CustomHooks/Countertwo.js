@@ -6,7 +6,7 @@ function Countertwo() {
 
     return (
         <div>
-            Count - {count}
+            Counter two - {count}
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
             <button onClick={reset}>Reset</button>
